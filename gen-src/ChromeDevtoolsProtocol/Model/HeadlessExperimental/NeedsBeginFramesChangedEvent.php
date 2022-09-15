@@ -33,6 +33,7 @@ final class NeedsBeginFramesChangedEvent implements \JsonSerializable
 	}
 
 
+	#[\ReturnTypeWillChange]
 	public function jsonSerialize()
 	{
 		$data = new \stdClass();
